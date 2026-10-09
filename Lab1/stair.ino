@@ -42,5 +42,5 @@ void loop() {
   // Display status on the LEDs connected to port A
   PORTA = stat;
   // delay 50 ms
-  _delay_ms(250);
+  delay(250);
 }
